@@ -49,7 +49,7 @@ int this_is_oop(int argc, char const * argv[]) {
                             "<monty"s,
                             30'000'00,
                             "This is my place, Sydney, AU"s,
-                            "brown"s,
+                            "ginger"s,
                             1'966,
                             50'100,
                             Person::Handedness::Right);

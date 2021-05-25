@@ -55,6 +55,9 @@ public:
          uint32_t weight = 0,
          Handedness handedness = Unknown);
 
+  virtual
+  ~Person() = default;
+
 #if defined(AS_EXPLICIT_COPY_MOVE_)
   Person(Person const & that);
   Person(Person && that);

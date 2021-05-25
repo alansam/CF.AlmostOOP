@@ -53,7 +53,7 @@ int almost_oop(int argc, char const * argv[]) {
                                  "<monty",
                                  3000000,
                                  "This is my place, Sydney, AU",
-                                 "brown",
+                                 "ginger",
                                  1966,
                                  50100,
                                  RIGHT);
