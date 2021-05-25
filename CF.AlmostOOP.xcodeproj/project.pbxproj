@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5AACDF89265C532E0096D4D0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AACDF88265C532E0096D4D0 /* main.cpp */; };
+		5AACDF89265C532E0096D4D0 /* almost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AACDF88265C532E0096D4D0 /* almost.cpp */; };
+		5AACDF91265C54AD0096D4D0 /* almost_oop.c in Sources */ = {isa = PBXBuildFile; fileRef = 5AACDF90265C54AD0096D4D0 /* almost_oop.c */; };
+		5AACDF94265C5B0C0096D4D0 /* this_is_oop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AACDF92265C5B0C0096D4D0 /* this_is_oop.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,11 @@
 
 /* Begin PBXFileReference section */
 		5AACDF85265C532E0096D4D0 /* CF.AlmostOOP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CF.AlmostOOP; sourceTree = BUILT_PRODUCTS_DIR; };
-		5AACDF88265C532E0096D4D0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5AACDF88265C532E0096D4D0 /* almost.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = almost.cpp; sourceTree = "<group>"; };
+		5AACDF8F265C54AD0096D4D0 /* almost_oop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = almost_oop.h; sourceTree = "<group>"; };
+		5AACDF90265C54AD0096D4D0 /* almost_oop.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = almost_oop.c; sourceTree = "<group>"; };
+		5AACDF92265C5B0C0096D4D0 /* this_is_oop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = this_is_oop.cpp; sourceTree = "<group>"; };
+		5AACDF93265C5B0C0096D4D0 /* this_is_oop.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = this_is_oop.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,11 @@
 		5AACDF87265C532E0096D4D0 /* CF.AlmostOOP */ = {
 			isa = PBXGroup;
 			children = (
-				5AACDF88265C532E0096D4D0 /* main.cpp */,
+				5AACDF88265C532E0096D4D0 /* almost.cpp */,
+				5AACDF90265C54AD0096D4D0 /* almost_oop.c */,
+				5AACDF8F265C54AD0096D4D0 /* almost_oop.h */,
+				5AACDF92265C5B0C0096D4D0 /* this_is_oop.cpp */,
+				5AACDF93265C5B0C0096D4D0 /* this_is_oop.hpp */,
 			);
 			path = CF.AlmostOOP;
 			sourceTree = "<group>";
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AACDF89265C532E0096D4D0 /* main.cpp in Sources */,
+				5AACDF91265C54AD0096D4D0 /* almost_oop.c in Sources */,
+				5AACDF89265C532E0096D4D0 /* almost.cpp in Sources */,
+				5AACDF94265C5B0C0096D4D0 /* this_is_oop.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,9 +251,11 @@
 		5AACDF8D265C532E0096D4D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HD3NHZ5324;
 				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu2x;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -249,9 +263,11 @@
 		5AACDF8E265C532E0096D4D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HD3NHZ5324;
 				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu2x;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
